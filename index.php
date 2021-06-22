@@ -14,7 +14,7 @@ $obj=new test1("CSII");
 //Serializing the object
 $str=serialize($obj);
 
-// if we do not want to store it in a file remove line 18,19,29. line 15 has serialized the object 
+// if we do not want to store it in a file remove line 19,20,21. line 15 has serialized the object 
 // storing in a file will help us in accessing this string in another file
 $fd=fopen("obj.txt","w");
 fwrite($fd, $str);
