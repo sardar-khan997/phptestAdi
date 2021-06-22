@@ -58,6 +58,9 @@ fclose($fd);
   }
   
   $private_secret_key = '1f4276388ad3214c873428dbef42243f' ; 
+
+// encrypting serialized object
+
   $encrypted = encrypt($str,$private_secret_key);
 
   // Output
